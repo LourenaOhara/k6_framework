@@ -15,7 +15,7 @@ jobs:
         with: 
           filename: scripts/report.js
 
-      - run: ls & mkdir reports & mv summary.html reports
+      - run: ls & mkdir reports & mv index.html reports
 
       - name: step 3 - upload artifact
         uses: actions/upload-artifact@v3
